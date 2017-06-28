@@ -14,18 +14,18 @@ colors:
 */
 body{
     background-color: grey;
+    border-radius: 6px;
+
 }
 
 body >div{
   width:70%;
   margin: 0 auto;
   box-shadow: 0 0 2px #ffd24a;
-  border-radius: 5px;
+  border-radius: 6px;
   font-family:Helvetica, Arial, sans-serif;
   line-height: 1.6;
   background-color: white;
-  padding:20px;
-
 
 }
 h3 {
@@ -112,13 +112,19 @@ form{
 }
 .name{
   background-color: #ff8523;
+
+  padding-right: 40px;
   padding: 20px;
   border-radius: 6px;
   color: white;
-  margin: 0 auto;
+
 
 }
 section{
     border-bottom: 4px solid #dddddd;
     padding-bottom: 30px;
+}
+
+.name{
+  padding
 }
