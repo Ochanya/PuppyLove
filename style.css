@@ -13,12 +13,19 @@ colors:
     dark blue - #046c97
 */
 body{
+    background-color: grey;
+}
+
+body >div{
   width:70%;
   margin: 0 auto;
   box-shadow: 0 0 2px #ffd24a;
   border-radius: 5px;
   font-family:Helvetica, Arial, sans-serif;
   line-height: 1.6;
+  background-color: white;
+  padding:20px;
+
 
 }
 h3 {
@@ -29,6 +36,7 @@ h3 {
   background-color: orange;
   padding-bottom: 40px;
   padding-left: 20px;
+  padding-top: 20px;
 }
 .main_navigation{
   margin-top:20px;
@@ -48,6 +56,7 @@ h3 {
 
 section > h2{
   color: #1fabe5;
+
 }
 
 p > a{
@@ -62,7 +71,54 @@ li{
   padding:5px;
 }
 
-ul{
-  padding-bottom: 50px;
-  border-bottom: 4px solid ##eee;
+
+
+td{
+  border: 2px solid #1976d2;
+  padding: 10px;
+
+
+}
+table {
+  border-collapse: collapse;
+
+}
+thead{
+  background-color: #1fabe5;
+  color: white;
+
+}
+form>div{
+  padding : 10px;
+}
+
+#bio{
+  border-color: #1fabe5;
+}
+#submit_button{
+  color:white;
+  background-color: #1fabe5;
+  border-radius: 5px;
+  padding: 10px;
+
+}
+div>label{
+  font-weight: bold;
+}
+form{
+  background-color: #dddddd;
+  padding: 15px;
+  border-radius: 6px;
+}
+.name{
+  background-color: #ff8523;
+  padding: 20px;
+  border-radius: 6px;
+  color: white;
+  margin: 0 auto;
+
+}
+section{
+    border-bottom: 4px solid #dddddd;
+    padding-bottom: 30px;
 }
