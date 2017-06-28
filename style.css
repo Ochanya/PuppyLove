@@ -1,0 +1,68 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+body{
+  width:70%;
+  margin: 0 auto;
+  box-shadow: 0 0 2px #ffd24a;
+  border-radius: 5px;
+  font-family:Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+
+}
+h3 {
+  color:#1fabe5;
+}
+
+#site_header{
+  background-color: orange;
+  padding-bottom: 40px;
+  padding-left: 20px;
+}
+.main_navigation{
+  margin-top:20px;
+}
+.main_navigation a{
+   border : 2px solid #ffd54f ;
+   text-decoration: none;
+   color:white;
+   border-radius: 4px;
+   padding: 10px;
+
+
+}
+#logo{
+  padding-bottom: 10px;
+}
+
+section > h2{
+  color: #1fabe5;
+}
+
+p > a{
+  color:#1fabe5;
+}
+#page_content{
+  padding :15px;
+}
+
+li{
+  font-weight: bold;
+  padding:5px;
+}
+
+ul{
+  padding-bottom: 50px;
+  border-bottom: 4px solid ##eee;
+}
